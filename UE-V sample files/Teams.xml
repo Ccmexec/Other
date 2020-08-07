@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>MS Teams</Name>
+  <ID>Teams-background</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Jorgen</Name>
+    <Email>jorgen@ccmexec.com</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>Teams.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">Microsoft\Teams\Backgrounds\Uploads</Path>
+      </File>
+  </Settings>
+</SettingsLocationTemplate>
