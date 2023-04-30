@@ -1,0 +1,40 @@
+ID,Category,Name,Method,MethodArgument,RegistryPath,RegistryItem,ClassName,Namespace,Property,DefaultValue,RecommendedValue,Operator,Severity
+1015,"Google Chrome","Enable network prediction",Registry,,HKLM:\Software\Policies\Google\Chrome,NetworkPredictionOptions,,,,,2,=,Medium
+1000,"Google Chrome","Enable reporting of usage and crash-related data",Registry,,HKLM:\Software\Policies\Google\Chrome,MetricsReportingEnabled,,,,,0,=,Medium
+1018,"Google Chrome","Enable search suggestions",Registry,,HKLM:\Software\Policies\Google\Chrome,SearchSuggestEnabled,,,,,0,=,Medium
+1019,"Google Chrome","Import saved passwords from default browser on first run",Registry,,HKLM:\Software\Policies\Google\Chrome,ImportSavedPasswords,,,,,0,=,Medium
+1001,"Google Chrome","Continue running background apps when Google Chrome is closed",Registry,,HKLM:\Software\Policies\Google\Chrome,BackgroundModeEnabled,,,,,0,=,Medium
+1002,"Google Chrome","Disable synchronization of data with Google",Registry,,HKLM:\Software\Policies\Google\Chrome,SyncDisabled,,,,,1,=,Medium
+1021,"Google Chrome","Enable Google Cloud Print proxy",Registry,,HKLM:\Software\Policies\Google\Chrome,CloudPrintProxyEnabled,,,,,0,=,Medium
+1017,"Google Chrome","Incognito mode availability",Registry,,HKLM:\Software\Policies\Google\Chrome,IncognitoModeAvailability,,,,,1,=,Medium
+1020,"Google Chrome","Enable online OCSP/CRL checks",Registry,,HKLM:\Software\Policies\Google\Chrome,EnableOnlineRevocationChecks,,,,,1,=,Medium
+1004,"Google Chrome","Allow QUIC protocol",Registry,,HKLM:\Software\Policies\Google\Chrome,QuicAllowed,,,,,0,=,Medium
+1012,"Google Chrome","Limit cookies from matching URLs to the current session",Registry,,HKLM:\Software\Policies\Google\Chrome,CookiesSessionOnlyForUrls,,,,,,*,Medium
+1005,"Google Chrome","Disable saving browser history",Registry,,HKLM:\Software\Policies\Google\Chrome,SavingBrowserHistoryDisabled,,,,,0,=,Medium
+1006,"Google Chrome","Safe Browsing Protection Level",Registry,,HKLM:\Software\Policies\Google\Chrome,SafeBrowsingProtectionLevel,,,,,1,=,Medium
+1007,"Google Chrome","Ask where to save each file before downloading",Registry,,HKLM:\Software\Policies\Google\Chrome,PromptForDownloadLocation,,,,,1,=,Medium
+1016,"Google Chrome","Enable deleting browser and download history",Registry,,HKLM:\Software\Policies\Google\Chrome,AllowDeletingBrowserHistory,,,,,0,=,Medium
+1008,"Google Chrome","Default geolocation setting",Registry,,HKLM:\Software\Policies\Google\Chrome,DefaultGeolocationSetting,,,,,2,=,Medium
+1009,"Google Chrome","Enable Saving Passwords to the Password Manager",Registry,,HKLM:\Software\Policies\Google\Chrome,PasswordManagerEnabled,,,,,0,=,Medium
+1010,"Google Chrome","Enable the default search provider",Registry,,HKLM:\Software\Policies\Google\Chrome,DefaultSearchProviderEnabled,,,,,1,=,Medium
+1011,"Google Chrome","Default search provider search URL",Registry,,HKLM:\Software\Policies\Google\Chrome,DefaultSearchProviderSearchURL,,,,,,Contains,Medium
+1022,"Google Chrome","Default search provider name",Registry,,HKLM:\Software\Policies\Google\Chrome,DefaultSearchProviderName,,,,,,Contains,Medium
+1003,"Google Chrome","Configure extension installation allowlist",Registry,,HKLM:\Software\Policies\Google\Chrome\ExtensionInstallAllowlist,1,,,,,,Contains,Medium
+1013,"Google Chrome","Configure extension installation blocklist",Registry,,HKLM:\Software\Policies\Google\Chrome\ExtensionInstallBlocklist,1,,,,0,*,=,Medium
+1014,"Google Chrome","Default popups setting",Registry,,HKLM:\Software\Policies\Google\Chrome,DefaultPopupsSetting,,,,,2,=,Medium
+1023,"Google Chrome","Minimum SSL version enabled",Registry,,HKLM:\Software\Policies\Google\Chrome,SSLVersionMin,,,,,tls1.2,=,High
+1024,"Google Chrome","Control use of the Web Bluetooth API",Registry,,HKLM:\Software\Policies\Google\Chrome,DefaultWebBluetoothGuardSetting,,,,,2,=,Medium
+1025,"Google Chrome","Import autofill form data from default browser on first run",Registry,,HKLM:\Software\Policies\Google\Chrome, ImportAutofillFormData,,,,,0,=,Medium
+1026,"Google Chrome","Enable guest mode in browser",Registry,,HKLM:\Software\Policies\Google\Chrome,BrowserGuestModeEnabled,,,,,0,=,Medium
+1027,"Google Chrome","Enable firewall traversal from remote access host",Registry,,HKLM:\Software\Policies\Google\Chrome,RemoteAccessHostFirewallTraversal,,,,,0,=,Medium
+1028,"Google Chrome","Enable AutoFill for addresses",Registry,,HKLM:\Software\Policies\Google\Chrome,AutofillAddressEnabled,,,,,0,=,Medium
+1029,"Google Chrome","Enable AutoFill for credit cards",Registry,,HKLM:\Software\Policies\Google\Chrome,AutofillCreditCardEnabled,,,,,0,=,Medium
+1030,"Google Chrome","Enable URL-keyed anonymized data collection",Registry,,HKLM:\Software\Policies\Google\Chrome,UrlKeyedAnonymizedDataCollectionEnabled,,,,,0,=,Medium
+1031,"Google Chrome","Enable Google Cast",Registry,,HKLM:\Software\Policies\Google\Chrome,EnableMediaRouter,,,,,0,=,Medium
+1032,"Google Chrome","Allow media autoplay",Registry,,HKLM:\Software\Policies\Google\Chrome,AutoplayAllowed,,,,,0,=,Medium
+1033,"Google Chrome","Enables Chrome Cleanup on Windows",Registry,,HKLM:\Software\Policies\Google\Chrome,ChromeCleanupEnabled,,,,,0,=,Medium
+1034,"Google Chrome","Enable Safe Browsing Extended Reporting",Registry,,HKLM:\Software\Policies\Google\Chrome,SafeBrowsingExtendedReportingEnabled,,,,,0,=,Medium
+1035,"Google Chrome","Control use of the WebUSB API",Registry,,HKLM:\Software\Policies\Google\Chrome,DefaultWebUsbGuardSetting,,,,,2,=,Medium
+1036,"Google Chrome","Allow collection of WebRTC event logs from Google services",Registry,,HKLM:\Software\Policies\Google\Chrome,WebRtcEventLogCollectionAllowed,,,,,0,=,Medium
+1037,"Google Chrome","Control where Developer Tools can be used",Registry,,HKLM:\Software\Policies\Google\Chrome,DeveloperToolsAvailability,,,,,2,=,Low
+1038,"Google Chrome","Block access to a list of URLs",Registry,,HKLM:\Software\Policies\Google\Chrome\URLBlocklist,1,,,,,javascript://*,=,Medium
